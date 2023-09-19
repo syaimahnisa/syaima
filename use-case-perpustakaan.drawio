@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T01:44:36.167Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.7.5" etag="AKUY9rwVo8s8-96ZfV-5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T02:05:40.188Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="huHBKzVVrS3niVkZe5Bb" version="21.7.5" type="github">
   <diagram name="Page-1" id="UgIkWOQpt6zah_35lUrR">
-    <mxGraphModel>
+    <mxGraphModel dx="1054" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="380" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-2" value="membaca buku catatan&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="150" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-6" value="rekap buku catatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-7" value="pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-8" value="anggota" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;catatan pengunjung perpustakaan&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="90" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0rXKNPH9pAanx3oW3AfY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="0rXKNPH9pAanx3oW3AfY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0rXKNPH9pAanx3oW3AfY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="0rXKNPH9pAanx3oW3AfY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="330" as="sourcePoint" />
+            <mxPoint x="490" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-5" value="isi buku catatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rXKNPH9pAanx3oW3AfY-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0rXKNPH9pAanx3oW3AfY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="310" as="sourcePoint" />
+            <mxPoint x="720" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
